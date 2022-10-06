@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+printf("enter any two numbers");
+scanf("%d%d", &a,&b);
+(a>b)?printf("a is biggest number");
+else
+printf("b is biggest number");
+return 0;
+}
+
