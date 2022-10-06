@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int l,b,area,cir;
+printf("enter length breadth");
+scanf("%d%d", &l,&b);
+area=l*b;
+cir=2*(l+b);
+printf("area=%d\n", area);
+printf("circumfrernce=%d", cir);
+return 0;
+}
