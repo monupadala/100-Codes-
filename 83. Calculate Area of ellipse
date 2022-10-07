@@ -1,0 +1,30 @@
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+    int r1,r2;
+    float PI = 3.142;
+	long area_of_ellipse;
+
+//	clrscr();
+
+	printf(" Program to calculate Area of a Ellipse :  \n\n");
+
+	printf(" Enter Radius1 of Ellipse : ");
+	scanf("%d", &r1);
+    
+    
+    printf("\n\n Enter Radius2 of Ellipse : ");
+	scanf("%d", &r2);
+    
+    
+	area_of_ellipse = PI*r1*r2;
+
+
+	printf("\n\n Area of Ellipse with radius1 as %d and radius2 as %d = %ld",r1,r2,area_of_ellipse);
+
+//	getch();
+
+
+}
