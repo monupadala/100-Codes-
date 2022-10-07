@@ -1,0 +1,23 @@
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+    int side;
+	long volume_of_cube;
+
+//	clrscr();
+
+	printf(" Program to calculate Volume of a Cube :  \n\n");
+
+	printf(" Enter the side of cube : ");
+	scanf("%d", &side);
+    
+    
+    
+	volume_of_cube = side*side*side;
+
+
+	printf("\n\n Volume of Cube with Side as %d = %ld ",side, volume_of_cube);
+
+//	getch();
