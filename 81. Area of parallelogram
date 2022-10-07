@@ -1,0 +1,30 @@
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+    int height;
+    int breadth;
+	long area;
+
+//	clrscr();
+
+	printf(" Program to calculate Area of a Parallelogram :  \n\n");
+
+	printf(" Enter the Length of a Parallelogram : ");
+	scanf("%d", &height);
+    
+    
+    printf("\n\n Enter the Breadth of a Parallelogram : ");
+	scanf("%d", &breadth);
+    
+
+	area = height*breadth;
+
+
+	printf("\n\n Area of Parallelogram with Height as %d and Breadth as %d  = %ld \n\n",height,breadth,area);
+
+//	getch();
+
+
+}
