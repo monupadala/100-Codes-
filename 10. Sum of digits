@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+printf("RA2211042010047");
 int n,sum=0,m;
 prntf("Enter a number");
 scanf("%d", &n);
