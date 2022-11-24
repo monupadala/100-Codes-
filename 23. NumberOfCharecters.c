@@ -1,5 +1,6 @@
 #include<stdlib.h>  
 int main(){  
+printf("2211042010047");
 long int n,sum=0,r;    
 system("cls");  
 printf("enter the number=");    
